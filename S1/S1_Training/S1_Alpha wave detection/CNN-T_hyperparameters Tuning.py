@@ -70,9 +70,9 @@ class_weights = class_weight.compute_class_weight(
 class_weights = {0: class_weights[0], 1: class_weights[1]}
 
 
-conv_filters_1 = [50, 150, 250]
+conv_filters_1 = [50, 100, 150]
 kernel_sizes_1 = [100,200,300]
-conv_filters_2 = [50, 150, 250]
+conv_filters_2 = [50, 100, 150]
 kernel_sizes_2 = [100,200,300]
 
 
